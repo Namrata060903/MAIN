@@ -2,18 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f5f5dc; /* Cream color */
+    color: #000; /* Black text */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #003153; /* Prussian blue */
+    color: #fff; /* White text */
     padding: 10px 0;
     text-align: center;
 }
 
 nav {
-    background-color: #fff;
+    background-color: #ff0000; /* Red */
     padding: 10px 0;
     text-align: center;
 }
@@ -31,36 +32,12 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #fff; /* White text */
     font-weight: bold;
 }
 
 main {
     padding: 20px;
-    text-align: center;
-}
-
-.qr-code {
-    width: 200px; /* Adjust size as necessary */
-    height: auto;
-    margin: 20px 0;
-}
-
-.museum-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.museum-links a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
 }
 
 .footer-sections {
@@ -70,31 +47,16 @@ footer {
 }
 
 .footer-pane {
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
+    background-color: #003153; /* Prussian blue */
+    color: #fff; /* White text */
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 30%;
     text-align: left;
 }
 
-.footer-pane h3 {
-    margin-top: 0;
-}
-
-.footer-pane p {
-    margin: 10px 0;
-}
-
-.video-thumbnail, .map-thumbnail {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
 .footer a {
-    color: #fff;
+    color: #fff; /* White */
     text-decoration: none;
 }
 
