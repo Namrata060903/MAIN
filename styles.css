@@ -4,19 +4,18 @@ body {
     padding: 0;
     background-color: #f5f5dc; /* Cream color */
     color: #000; /* Black text */
+    text-align: center; /* Center-align text */
 }
 
 header {
     background-color: #003153; /* Prussian blue */
     color: #fff; /* White text */
     padding: 10px 0;
-    text-align: center;
 }
 
 nav {
     background-color: #ff0000; /* Red */
     padding: 10px 0;
-    text-align: center;
 }
 
 nav ul {
